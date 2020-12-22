@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #808284;
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wrapper ul{
+    list-style: none;
+}
+.wrapper ul li{
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    float: left;
+    transition: all 0.5s ease;
+}
+.wrapper ul li .fa{
+    color: #ffffff;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
+.wrapper ul li:hover:nth-child(1){
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 35px #3b5998;
+    transition: all 0.5s ease;
+}
+.wrapper ul li :hover .fa-facebook{
+    color: #3b5998;
+    text-shadow: 0 0 35px #3b5998;
+    transition: all 0.5s ease;
+}
+.wrapper ul li:hover:nth-child(2){
+    border: 5px solid #3f729b;
+    box-shadow: 0 0 50px #3f729b;
+    transition: all 0.5s ease;
+}
+.wrapper ul li :hover .fa-instagram{
+    color: #3f729b;
+    text-shadow: 0 0 50px #3f729b;
+    transition: all 0.5s ease;
+}
+.wrapper ul li:hover:nth-child(3){
+    border: 5px solid #43d854;
+    box-shadow: 0 0 35px #43d854;
+    transition: all 0.5s ease;
+}
+.wrapper ul li :hover .fa-whatsapp{
+    color: #43d854;
+    text-shadow: 0 0 35px #43d854;
+    transition: all 0.5s ease;
+}
+.wrapper ul li:hover:nth-child(4){
+    border: 5px solid #55acee;
+    box-shadow: 0 0 35px #55acee;
+    transition: all 0.5s ease;
+}
+.wrapper ul li :hover .fa-twitter{
+    color: #55acee;
+    text-shadow: 0 0 35px #55acee;
+    transition: all 0.5s ease;
+}
